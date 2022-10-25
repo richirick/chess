@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#EFCD5E">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/chess"
+        android:textAlignment="center"
+        android:textColor="#616161"
+        android:padding="20sp"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="#E8E1A9"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/chess_icon"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25sp"
+        android:gravity="center"
+        android:text="@string/text1"
+        android:textAlignment="center"
+        android:textColor="#455A64"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/next_button1"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:backgroundTint="#EECC5E"
+        android:onClick="onClickGoMain"
+        android:padding="5dp"
+        android:text="@string/idNext_button"
+        android:textColor="#455A64"
+        android:textSize="25sp" />
+
+
+</LinearLayout>

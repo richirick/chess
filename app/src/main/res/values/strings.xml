@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">chess</string>
+    <string name="text1">Уроки игры в шахматы</string>
+    <string name="idNext_button">Далее</string>
+    <string name="chess">Шахматы</string>
+    <string name="lesson1">Урок1: Мат Легаля</string>
+    <string name="lesson2">Урок2: Детский мат</string>
+    <string name="lesson3">Урок3: Испанская партия</string>
+    <string name="lesson4">Урок4: Атака Макса Ланге</string>
+    <string name="lesson5">Урок5: Скандинавская защита</string>
+    <string name="lessons">Уроки</string>
+    <string name="developerText">Самый лучший разработчик</string>
+    <string name="mail_link">Связь с разработчиком
+    \n<ul></ul><a href = "akishkin_valera@mail.ru">akishkin_valera@mail.ru </a><ul></ul>
+    </string>
+    <string name="about_developer">О разработчике</string>
+    <string name="back_button">Назад</string>
+</resources>
